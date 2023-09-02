@@ -1,0 +1,25 @@
+.adress__card {
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%, -45%);
+    background-color: var(--white);
+}
+
+.adress__btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress__btn {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:700px) {
+    .adress__card {
+        padding: 2rem;
+        transform: translate(-50%, -50%);
+    }
+}
